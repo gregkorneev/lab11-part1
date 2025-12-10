@@ -1,9 +1,9 @@
 # Лабораторная работа 11 (часть 1)
 
-Проект реализует базовые операции над ориентированными и неориентированными графами на языке C++ в учебном стиле.  
+Проект реализует базовые операции над ориентированными и неориентированными графами на языке C++ в учебном стиле.
 Поддерживаются два режима работы:
 
-1. **Интерактивный режим** — пользователь вручную вводит параметры графа.  
+1. **Интерактивный режим** — пользователь вручную вводит параметры графа.
 2. **Автоматический режим** — граф генерируется случайным образом без ввода данных.
 
 Дополнительно предоставлены Python-скрипты для визуализации:
@@ -66,7 +66,7 @@ rm -rf build && cmake -B build && cmake --build build
 Полный конвейер (пересборка + запуск + визуализации):
 
 ```bash
-rm -rf build && cmake -B build && cmake --build build && ./build/lab11 && python3 .py/plot_graph_views.py && python3 .py/plot_bfs_layers.py
+rm -rf build && rm -rf data && cmake -B build && cmake --build build && ./build/lab11 && python3 .py/plot_graph_views.py && python3 .py/plot_bfs_layers.py
 ```
 
 ---
@@ -82,7 +82,7 @@ rm -rf build && cmake -B build && cmake --build build && ./build/lab11 && python
 Полный запуск с пересборкой и генерацией графиков:
 
 ```bash
-rm -rf build && cmake -B build && cmake --build build && ./build/lab11_random && python3 .py/plot_graph_views.py && python3 .py/plot_bfs_layers.py
+rm -rf build && rm -rf data && cmake -B build && cmake --build build && ./build/lab11_random && python3 .py/plot_graph_views.py && python3 .py/plot_bfs_layers.py
 ```
 
 ---
@@ -91,7 +91,7 @@ rm -rf build && cmake -B build && cmake --build build && ./build/lab11_random &&
 
 После запуска Python-скриптов в каталоге `data/png/` появятся:
 
-- **graph_views.png** — исходный граф, транспонирование, квадрат графа  
+- **graph_views.png** — исходный граф, транспонирование, квадрат графа
 - **bfs_layers.png** — слои BFS от стартовой вершины
 
 Готовы для вставки в отчёт.
