@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/graph_lab11.dir/src/main.cpp.o CMakeFiles/graph_lab11.dir/src/Graph.cpp.o CMakeFiles/graph_lab11.dir/src/GraphMatrix.cpp.o -o graph_lab11
