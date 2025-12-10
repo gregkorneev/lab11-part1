@@ -14,8 +14,14 @@
 
 ## Сборка и запуск
 
-Из корня проекта выполнить:
+Из корня проекта выполнить один из вариантов:
 
+
+1) Ручной режим с пользовательскими входными данными
 ```bash
-rm -rf build && cmake -B build && cmake --build build && ./build/lab11 && python3 .py/plot_graph_views.py && python3 .py/plot_bfs_layers.py
+rm -rf build && rm -rf data && cmake -B build && cmake --build build && ./build/lab11 && python3 .py/plot_graph_views.py && python3 .py/plot_bfs_layers.py
+```
+2) Автоматический режим
+```bash
+rm -rf build && rm -rf data && cmake -B build && cmake --build build && ./build/lab11_random && python3 .py/plot_graph_views.py && python3 .py/plot_bfs_layers.py
 ```
