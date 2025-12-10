@@ -8,11 +8,11 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 # Исполняемый файл
-add_executable(graph_lab11
+add_executable(lab11
     src/main.cpp
     src/Graph.cpp
     src/GraphMatrix.cpp
 )
 
 # Путь к заголовочным файлам
-target_include_directories(graph_lab11 PRIVATE include)
+target_include_directories(lab11 PRIVATE include)
