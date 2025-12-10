@@ -22,5 +22,5 @@
 Из корня проекта выполнить:
 
 ```bash
-rm -rf build && cmake -B build && cmake --build build && ./build/lab11
+rm -rf build && cmake -B build && cmake --build build && ./build/lab11 && python3 .py/plot_graph_views.py && python3 .py/plot_bfs_layers.py
 ```
