@@ -1,3 +1,0 @@
-/Users/korneev/Code/lab11-part1/build/CMakeFiles/graph_lab11.dir
-/Users/korneev/Code/lab11-part1/build/CMakeFiles/edit_cache.dir
-/Users/korneev/Code/lab11-part1/build/CMakeFiles/rebuild_cache.dir
